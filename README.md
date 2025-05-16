@@ -28,4 +28,4 @@ I'll keep adding projects here — from small experiments to full-stack web apps
 
 ## 🚀 About This Repo
 
-This is my personal project space. It's not meant to be super polished or formal — just a place to share what I’m building and learning.
+This is my main project repository — a curated collection of the websites, apps, and experiments I’ve built while learning and growing as a developer. It’s a reflection of my journey, skills, and interests in software development.
