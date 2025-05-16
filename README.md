@@ -14,7 +14,7 @@ Welcome to my collection of personal projects — a mix of full websites, apps, 
 
 A simple weather app that lets users search for a city and get real-time weather info using the OpenWeatherMap API. It shows temperature, humidity, a weather description, and an emoji representing the weather.
 
-📁 [View Project Folder](./weather-app)
+📁 [View Project Folder](./Vanilla_Javascript/weather-app)
 
 🧪 Tech Used: HTML, CSS, JavaScript
 
