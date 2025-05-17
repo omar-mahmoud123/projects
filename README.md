@@ -12,7 +12,7 @@ Welcome to my collection of personal projects — a mix of full websites, apps, 
 
 - [⏰ Digital Clock App](/Vanilla_Javascript/digital_clock/)
 
-- [⏰ Rock Paper Scissors Game](/Vanilla_Javascript/rock_paper_scissors/)
+- [✊✋✌️ Rock Paper Scissors Game](/Vanilla_Javascript/rock_paper_scissors/)
 
 ---
 
