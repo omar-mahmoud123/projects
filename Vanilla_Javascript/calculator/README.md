@@ -33,3 +33,19 @@ A simple, responsive calculator built using HTML, CSS, and JavaScript. It suppor
 - The display is updated dynamically using JavaScript.
 - `eval()` is used for expression evaluation after replacing visual symbols (`×`, `÷`) with their JavaScript equivalents (`*`, `/`).
 - Errors (like invalid input or division by zero) show `"ERROR"` in the display.
+
+---
+
+## ⚙️ Setup Instructions
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/yourusername/yourrepo.git
+
+2. Navigate into the project folder:
+
+    ```bash
+    cd Vanilla_Javascript/calculator
+
+3. Open `index.html` in your browser.
