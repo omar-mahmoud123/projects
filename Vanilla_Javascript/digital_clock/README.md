@@ -15,9 +15,7 @@ A stylish digital clock built with HTML, CSS, and JavaScript. It displays the cu
 
 ## 🖼️ Screenshot
 
-![Digital Clock Screenshot](/Vanilla_Javascript/digital_clock/Digital%20Clock.png)
-
-> 📸 Replace with the correct image path and filename if different.
+![Digital Clock Screenshot](/Vanilla_Javascript/digital_clock/Clock%20Screenshot.png)
 
 ---
 
