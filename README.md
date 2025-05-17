@@ -12,6 +12,8 @@ Welcome to my collection of personal projects — a mix of full websites, apps, 
 
 - [⏰ Digital Clock App](/Vanilla_Javascript/digital_clock/)
 
+- [⏰ Rock Paper Scissors Game](/Vanilla_Javascript/digital_clock/)
+
 ---
 
 ## 🚀 About This Repo
