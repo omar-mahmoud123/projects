@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    background-image: url(background_image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#clock {
+    color: hsl(0, 100%, 100%);
+    font-size: 15vw;
+    font-family: monospace;
+    font-weight: bold;
+}
