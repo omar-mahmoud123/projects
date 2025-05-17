@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock Paper Scissors</title>
+        <link rel="icon" type="image/png" href="favicon.png" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="index.js" defer></script>
+    </head>
+    <body>
+        <h1 id="title">Rock - Paper - Scissors</h1>
+        <div id="buttonContainer">
+            <span class="emoji" id="rock" onclick="playGame('rock')">👊</span>
+            <span class="emoji" id="paper" onclick="playGame('paper')">✋</span>
+            <span class="emoji" id="scissors" onclick="playGame('scissors')"
+                >✌️</span
+            >
+        </div>
+        <div class="played" id="player">Player:</div>
+        <div class="played" id="computer">Computer:</div>
+        <div id="result"><br /></div>
+        <span class="score">Player Score:</span>
+        <span id="playerScore">0</span>
+        <br />
+        <span class="score">Computer Score:</span>
+        <span id="computerScore">0</span>
+    </body>
+</html>

@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(19, 42, 57);
+    color: hsl(0, 0%, 83%);
+    font-family: sans-serif;
+    text-align: center;
+}
+#title {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 5px;
+}
+#buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.emoji {
+    border: 2px solid black;
+    font-size: 120px;
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    background-color: hsl(200, 100%, 50%);
+    transition: background-color 0.5s ease;
+}
+.emoji:hover {
+    box-shadow: 0 0 20px black;
+    background-color: hsl(200, 100%, 65%);
+}
+.emoji:active {
+    background-color: hsl(200, 100%, 70%);
+}
+.played {
+    font-size: 2rem;
+}
+#result {
+    font-size: 4rem;
+}
+.score {
+    font-size: 2rem;
+    display: inline;
+}
+#playerScore {
+    font-size: 2rem;
+}
+#computerScore {
+    font-size: 2rem;
+}
+.greenText,
+#playerScore {
+    color: hsl(120, 100%, 61%);
+}
+.redText,
+#computerScore {
+    color: hsl(0, 100%, 60%);
+}
