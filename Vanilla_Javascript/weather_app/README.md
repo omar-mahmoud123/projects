@@ -37,12 +37,12 @@ A simple web app that lets you search for any city and get real-time weather inf
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/yourrepo.git
+    git clone https://github.com/omar-mahmoud123/projects.git
 
 2. Navigate into the folder:
 
     ```bash
-    cd weather_app
+    cd projects/Vanilla_Javascript/weather_app
 
 3. Open index.html in your browser:
 

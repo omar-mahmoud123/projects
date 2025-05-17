@@ -41,7 +41,7 @@ A simple, responsive calculator built using HTML, CSS, and JavaScript. It suppor
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/yourrepo.git
+    git clone https://github.com/omar-mahmoud123/projects.git
 
 2. Navigate into the project folder:
 
