@@ -6,23 +6,9 @@ Welcome to my collection of personal projects — a mix of full websites, apps, 
 
 ## 📚 Table of Contents
 
-- [🌦️ Weather App](#️-weather-app)
+- [🌦️ Weather App](/Vanilla_Javascript/weather_app/)
 
----
-
-## 🌦️ Weather App
-
-A simple weather app that lets users search for a city and get real-time weather info using the OpenWeatherMap API. It shows temperature, humidity, a weather description, and an emoji representing the weather.
-
-📁 [View Project Folder](/Vanilla_Javascript/weather_app/)
-
-🧪 Tech Used: HTML, CSS, JavaScript
-
----
-
-## 🧩 More Coming Soon
-
-I'll keep adding projects here — from small experiments to full-stack web apps. Each one will eventually have its own README with more details.
+- [🧮 Calculator App](/Vanilla_Javascript/calculator/)
 
 ---
 
