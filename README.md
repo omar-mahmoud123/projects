@@ -10,6 +10,8 @@ Welcome to my collection of personal projects — a mix of full websites, apps, 
 
 - [🧮 Calculator App](/Vanilla_Javascript/calculator/)
 
+- [⏰ Digital Clock App](/Vanilla_Javascript/digital_clock/)
+
 ---
 
 ## 🚀 About This Repo
