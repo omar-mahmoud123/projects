@@ -32,6 +32,20 @@ A simple web app that lets you search for any city and get real-time weather inf
 
 ---
 
+## 📂 Folder Structure
+
+```plaintext
+
+weather_app/
+├── Weather App.png       # Screenshot image for README
+├── favicon.webp          # Page icon
+├── index.html            # Main HTML structure
+├── index.js              # Weather logic and API calls
+├── style.css             # Styling and layout
+└── README.md             # Project documentation
+
+---
+
 ## ⚙️ Setup Instructions
 
 1. Clone the repository:

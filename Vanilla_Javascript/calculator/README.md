@@ -38,10 +38,12 @@ A simple, responsive calculator built using HTML, CSS, and JavaScript. It suppor
 
 ## 📂 Folder Structure
 
+```plaintext
+
 calculator/
-│
-├── index.html       # Main HTML structure
-├── style.css        # Custom styling for calculator UI
-├── index.js         # Calculator logic and interaction handling
-├── favicon.png      # Page icon
-└── README.md        # Project documentation
+├── Calculator App.png    # Screenshot image for README
+├── favicon.png           # Page icon
+├── index.html            # Main HTML structure
+├── index.js              # Calculator logic
+├── style.css             # Styling and layout
+└── README.md             # Project documentation
