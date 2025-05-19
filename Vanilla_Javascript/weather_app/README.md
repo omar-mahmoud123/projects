@@ -19,7 +19,7 @@ A simple web app that lets you search for any city and get real-time weather inf
 
 ## 🖼️ Screenshot
 
-![Weather App Screenshot](/Vanilla_Javascript/weather_app/Weather%20App.png)
+![Weather App Screenshot](/Vanilla_Javascript/weather_app/Weather%20App%20Screenshot.png)
 
 ---
 
