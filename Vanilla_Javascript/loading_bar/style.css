@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+#barContainer {
+    width: 600px;
+    height: 60px;
+    border: 2px solid white;
+}
+#percentage {
+    margin-top: 40px;
+    font-size: 4rem;
+}
+#bar {
+    background-color: hsl(180, 100%, 50%);
+    height: 100%;
+    width: 0%;
+}
+#buttonContainer button {
+    margin-top: 50px;
+    background-color: hsl(114, 100%, 50%);
+    font-size: 40px;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 20px;
+    font-weight: bold;
+}
+#buttonContainer button:hover {
+    background-color: hsl(114, 100%, 45%);
+}
+#buttonContainer button:active {
+    background-color: hsl(114, 100%, 35%);
+}
+#inputContainer {
+    margin: 40px;
+}
+#inputContainer input {
+    font-size: 2rem;
+    width: 90px;
+    border: none;
+    border-radius: 8px;
+    background-color: hsl(180, 100%, 80%);
+    text-align: center;
+    color: rgb(139, 0, 139);
+    font-weight: bold;
+}
+#inputContainer label {
+    font-size: 2rem;
+    color: rgb(255, 81, 81);
+}
