@@ -1,6 +1,6 @@
 # 🧮 Calculator App
 
-A simple, responsive calculator built using HTML, CSS, and JavaScript. It supports basic arithmetic operations and is styled to resemble a physical calculator interface.
+A simple, responsive calculator built using **HTML**, **CSS**, and **JavaScript**. It supports basic arithmetic operations and is styled to resemble a physical calculator interface.
 
 ---
 
@@ -21,9 +21,9 @@ A simple, responsive calculator built using HTML, CSS, and JavaScript. It suppor
 
 ## 🧪 Technologies Used
 
-- HTML5
-- CSS3 (custom styling with hover/active effects)
-- Vanilla JavaScript (no libraries or frameworks)
+- **HTML5**
+- **CSS3**
+- **JavaScript**
 
 ---
 

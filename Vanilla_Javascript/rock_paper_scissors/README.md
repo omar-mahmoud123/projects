@@ -1,6 +1,6 @@
 # ✊✋✌️ Rock Paper Scissors
 
-A fun and interactive Rock-Paper-Scissors game built with HTML, CSS, and JavaScript. The player competes against the computer, and scores are tracked in real time.
+A fun and interactive Rock-Paper-Scissors game built with **HTML**, **CSS**, and **JavaScript**. The player competes against the computer, and scores are tracked in real time.
 
 ---
 
@@ -20,11 +20,11 @@ A fun and interactive Rock-Paper-Scissors game built with HTML, CSS, and JavaScr
 
 ---
 
-## 🧪 Technologies Used
+## 🛠️ Tech Stack
 
-- HTML5
-- CSS3 (basic styling and result highlights)
-- Vanilla JavaScript
+- **HTML5**
+- **CSS3**
+- **JavaScript**
 
 ---
 
