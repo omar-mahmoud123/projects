@@ -16,6 +16,8 @@ Welcome to my collection of personal projects — a mix of full websites, apps, 
 
 - [⏳ Loading Bar App](/Vanilla_Javascript/loading_bar/)
 
+- [🔐 Password Generator App](/Vanilla_Javascript/password_generator/)
+
 ---
 
 ## 🚀 About This Repo
