@@ -15,7 +15,7 @@ A simple, responsive calculator built using HTML, CSS, and JavaScript. It suppor
 
 ## 🖼️ Screenshot
 
-![Calculator Screenshot](/Vanilla_Javascript/calculator/Calculator%20App.png)
+![Calculator Screenshot](/Vanilla_Javascript/calculator/Calculator%20App%20Screenshot.png)
 
 ---
 
