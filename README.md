@@ -14,6 +14,8 @@ Welcome to my collection of personal projects — a mix of full websites, apps, 
 
 - [✊✋✌️ Rock Paper Scissors Game](/Vanilla_Javascript/rock_paper_scissors/)
 
+- [⏳ Loading Bar App](/Vanilla_Javascript/loading_bar/index.html)
+
 ---
 
 ## 🚀 About This Repo
