@@ -18,6 +18,8 @@ Welcome to my collection of personal projects — a mix of full websites, apps, 
 
 - [🔐 Password Generator App](/Vanilla_Javascript/password_generator/)
 
+- [🖼️ Image Slider](/Vanilla_Javascript/image_slider/)
+
 ---
 
 ## 🚀 About This Repo

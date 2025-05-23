@@ -1,0 +1,71 @@
+body {
+    background-color: hsl(264, 100%, 19%);
+    margin: 0;
+    padding: 0;
+}
+#title {
+    font-size: 5rem;
+    font-family: cursive;
+    font-weight: bolder;
+    color: gold;
+    margin: 0;
+    text-align: center;
+}
+#container {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#slides img {
+    width: 600px;
+    overflow: hidden;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+.brackets {
+    height: 50px;
+    width: 40px;
+    font-size: 2.5rem;
+    background-color: hsla(0, 0%, 0%, 0.362);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+    user-select: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.brackets:hover {
+    background-color: hsla(0, 0%, 0%, 0.509);
+}
+.brackets:active {
+    background-color: hsla(0, 0%, 0%, 0.762);
+}
+.modelName {
+    font-size: 4rem;
+    color: white;
+    display: none;
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+}
+#slides {
+    text-align: center;
+}
+#prev {
+    left: 0;
+}
+#next {
+    right: 0;
+}
+@keyframes fade {
+    from {
+        opacity: 0.5;
+    }
+    to {
+        opacity: 1;
+    }
+}
