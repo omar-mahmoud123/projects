@@ -13,8 +13,7 @@ A sleek and interactive image slider built with **HTML**, **CSS**, and **JavaScr
 
 ## 🖼️ Screenshot
 
-![Image Slider Screenshot](images/screenshot.png)  
-*Make sure to replace this with an actual screenshot of your project.*
+![Image Slider Screenshot](/Vanilla_Javascript/image_slider/Image%20Slider%20Screenshot.png)
 
 ## 🛠️ Tech Stack
 
