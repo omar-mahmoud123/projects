@@ -1,0 +1,81 @@
+{% extends "tasks/layout.html" %}
+{% block body %}
+    <h2 class="pageTitle">Categories</h2>
+    <div class="categoriesActions">
+        <form action="{% url 'search_categories' %}" method="get" id="searchCategoriesForm">
+            <input
+                class="search searchTerm"
+                type="text"
+                name="q"
+                placeholder="Search Categories">
+            <button type="submit" class="searchButton">
+                <i class="fa fa-search"></i>
+            </button>
+        </form>
+        <a href="{% url 'create_category' %}" id="createCategoryBtn"><button class="createCategoryBtn" role="button">New Category <i class="fa-solid fa-plus createCategoryIcon"></i></button></a>
+    </div>
+    <hr>
+    {% for initial, categories in dictionary.items %}
+        <h2 class="initial">{{ initial }}</h2>
+        <ul>
+            {% for category_name in categories %}
+                <li>
+                    <h3>{{ category_name }}</h3>
+                    <button id="newTaskBtn" class="newTaskBtn" role="button">
+                        <i class="fa-solid fa-plus newTaskIcon" style="border: 2px solid black;"></i> New Task
+                    </button>
+                    <table class="table table-dark table-sortable table-hover">
+                        <thead>
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col">Task Title</th>
+                                <th scope="col">Description</th>
+                                <th scope="col">Due Date</th>
+                                <th scope="col">Priority</th>
+                                <th scope="col">Category</th>
+                                <th scope="col">Completed</th>
+                                <th scope="col"></th>
+                            </tr>
+                        </thead>
+                        <tbody id="table-body" class="table-body">
+                            {% for category_info in category_data %}
+                                {% if category_info.category.name == category_name %}
+                                    {% if category_info.tasks %}
+                                        {% for task in category_info.tasks %}
+                                            <tr scope="row" class="task-row" data-task-id="{{ task.id }}">
+                                                <td>
+                                                    <button class="icon-button edit-btn" data-task-id="{{ task.id }}">
+                                                        <i class="fa-solid fa-pen-to-square edit-icon" title="Edit Task"></i>
+                                                    </button>
+                                                </td>
+                                                <td>{{ task.title }}</td>
+                                                <td>{{ task.description }}</td>
+                                                <td>{% if task.due_date %}{{ task.due_date|date:"F j, Y, g:i a" }}{% else %}N/A{% endif %}</td>
+                                                <td class="{% if task.priority == 'high' %}high-priority{% elif task.priority == 'medium' %}medium-priority{% else %}low-priority{% endif %}">{{ task.get_priority_display }}</td>
+                                                <td>{{ task.category.name }}</td>
+                                                <td>
+                                                    <input type="checkbox" name="completed" {% if task.completed %}checked{% endif %} data-task-id="{{ task.id }}">
+                                                </td>
+                                                <td>
+                                                    <button class="icon-button delete-btn" data-task-id="{{ task.id }}">
+                                                        <i class="fa-solid fa-trash delete-icon" title="Delete Task"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                        {% endfor %}
+                                    {% else %}
+                                        <p>No Tasks for this Category</p>
+                                    {% endif %}
+                                {% endif %}
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                    <div class="button-container">
+                        <button id="cancelTableBtn" class="btn btn-secondary cancelTableBtn" style="display: none;">Cancel</button>
+                        <button id="saveTableBtn" class="btn btn-primary saveTableBtn" style="display: none;">Save Table</button>
+                    </div>
+                </li>
+            {% endfor %}
+        </ul>
+    {% endfor %}
+{% endblock body %}

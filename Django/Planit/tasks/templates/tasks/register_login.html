@@ -1,0 +1,58 @@
+{% extends "tasks/layout.html" %}
+
+{% block body %}
+<div class="form-container">
+    <div class="form-header">
+        <div id="login-tab" class="tab {% if form_type == 'login' %}active{% endif %}" onclick="switchForm('login')">Login</div>
+        <div id="register-tab" class="tab {% if form_type == 'register' %}active{% endif %}" onclick="switchForm('register')">Register</div>
+    </div>
+
+    <div id="login-form" class="form-content" style="{% if form_type == 'login' %}display: block;{% else %}display: none;{% endif %}">
+        {% if message and form_type == 'login' %}
+            <div class="message">{{ message }}</div>
+        {% endif %}
+        <form action="{% url 'auth' %}" method="post">
+            {% csrf_token %}
+            <input type="hidden" name="form_type" value="login">
+            <div class="form-group">
+                <input autofocus class="form-control" type="text" name="username" placeholder="Username">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="password" name="password" placeholder="Password">
+            </div>
+            <input class="btn btn-primary" type="submit" value="Login">
+        </form>
+    </div>
+
+    <div id="register-form" class="form-content" style="{% if form_type == 'register' %}display: block;{% else %}display: none;{% endif %}">
+        {% if message and form_type == 'register' %}
+            <div class="message">{{ message }}</div>
+        {% endif %}
+        <form action="{% url 'auth' %}" method="post">
+            {% csrf_token %}
+            <div class="names-container">
+                <input type="hidden" name="form_type" value="register">
+                <div class="form-group name" id="firstName">
+                    <input class="form-control" autofocus type="text" name="first_name" placeholder="First Name">
+                </div>
+                <div class="form-group name" id="lastName">
+                    <input class="form-control" type="text" name="last_name" placeholder="Last Name">
+                </div>
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="text" name="username" placeholder="Username">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="email" name="email" placeholder="Email Address">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="password" name="password" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="password" name="confirmation" placeholder="Confirm Password">
+            </div>
+            <input class="btn btn-primary" type="submit" value="Register">
+        </form>
+    </div>
+</div>
+{% endblock %}
